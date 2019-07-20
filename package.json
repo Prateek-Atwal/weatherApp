@@ -1,0 +1,20 @@
+{
+  "name": "mausam",
+  "version": "1.0.0",
+  "description": "A simple weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "weather": "./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "minimalist": "^1.0.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.4.0"
+  }
+}
